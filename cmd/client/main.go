@@ -14,10 +14,10 @@ func main() {
 		return
 	}
 
-  reader := bufio.NewReader(os.Stdin)
+	reader := bufio.NewReader(os.Stdin)
 
-  for {
-    fmt.Print("You: ")
+	for {
+		fmt.Print("You: ")
 		message, _ := reader.ReadString('\n')
 
 		conn.Write([]byte(message))

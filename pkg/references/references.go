@@ -6,7 +6,7 @@ var Greetings = map[string]string{
 }
 
 var Memes = []string{
-  "Thank you, Sherlock!",
+	"Thank you, Sherlock!",
 	"Error 404: Brain not found.",
 	"Oops! Did you mean to do that?",
 	"Me when I see food!",

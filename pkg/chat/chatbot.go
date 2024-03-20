@@ -43,9 +43,9 @@ func ProcessMessage(message string, ref map[string]string) string {
 	return "I think you spoke in Glogulese, because I didn't understand anything."
 }
 
-func RandMeme(ref []string) string{
-  r := rand.New(rand.NewSource(time.Now().UnixNano()))
-  randomIndex := r.Intn(len(ref))
-	
-  return ref[randomIndex]
+func RandMeme(ref []string) string {
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	randomIndex := r.Intn(len(ref))
+
+	return ref[randomIndex]
 }
